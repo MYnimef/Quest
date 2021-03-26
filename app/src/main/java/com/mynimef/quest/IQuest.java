@@ -1,5 +1,5 @@
 package com.mynimef.quest;
 
 public interface IQuest {
-    ISituation addSituation();
+    Result addSituation();
 }
