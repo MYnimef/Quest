@@ -11,8 +11,8 @@ public class Beginning implements IQuest {
 
     @Override
     public Result addSituation() {
-        ways.put("Спуститься на два блока вниз", new com.mynimef.quest.situations.DeepDungeonEnter());
-        ways.put("Идти вперед, в gym", new com.mynimef.quest.situations.GymEnter());
+        ways.put("Спуститься на два блока вниз", new DeepDungeonEnter());
+        ways.put("Идти вперед, в gym", new GymEnter());
 
         return new Continue(
                 "Welcum to the Dungeon",
